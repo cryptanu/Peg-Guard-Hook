@@ -16,3 +16,6 @@ docs/
 
 # Node modules
 node_modules/
+
+# PegGaurd-JIT folder
+peggaurd-jit/
