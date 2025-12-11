@@ -8,8 +8,8 @@ out/
 /broadcast/*/5/
 /broadcast/**/dry-run/
 
-# Docs
-docs/
+# Docs (keeping PegGuard docs)
+# docs/
 
 # Dotenv file
 .env
