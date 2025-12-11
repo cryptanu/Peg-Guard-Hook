@@ -21,3 +21,4 @@ node_modules/
 peggaurd-jit/
 
 lib/
+.commits.txt
