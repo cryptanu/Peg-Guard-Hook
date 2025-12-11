@@ -1,10 +1,10 @@
 # How PegGuard Works
 
-PegGuard lives in `/Users/najnomics/november/FOR ETHGLOBAL/PegGaurd-JIT`. From there you can run `forge test`, execute the keeper/JIT bots (TypeScript), or broadcast the Foundry scripts under `script/`.
+PegGuard lives in the `project_directory` folder. From there you can run `forge test`, execute the keeper/JIT bots (TypeScript), or broadcast the Foundry scripts under `script/`.
 
 ## 1. Accessing the Project
 
-1. `cd /Users/najnomics/november/FOR ETHGLOBAL/PegGaurd-JIT`
+1. `cd project_directory/Peg-Guard-Hook`
 2. Install deps once: `forge install` and `pnpm install`
 3. Run tests: `forge test --gas-report`
 4. Run bots (after exporting env vars): `pnpm keeper`, `pnpm jit`
@@ -40,7 +40,7 @@ To the end user, PegGuard feels like a smarter Uniswap pool that defends the peg
 4. **Settlement** – Liquidity is pulled, loans repaid, reserves updated, keeper returns pool to Calm once oracle gap closes.
 
 ## 4. Summary Cheat Sheet
-- **Path**: `/Users/najnomics/november/FOR ETHGLOBAL/PegGaurd-JIT`
+- **Path**: `project_directory/Peg-Guard-Hook`
 - **Primary commands**: `forge test`, `pnpm keeper`, `pnpm jit`
 - **Key contracts**: Hook, Keeper, JIT Manager, Flash Borrower, Oracle Adapter
 - **Docs**: `README.md`, `docs/DEPLOYMENT.md`, `docs/MANUAL_RUNBOOK.md`, `docs/HOW.md`
